@@ -1,32 +1,21 @@
-/* Use this file to use your own styles*/
 
-/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-/* Styles for the body */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap')
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
-
-/* Styles for custom classes in the document. (There are more, try to find them out!) */
-
 .resume-header {
     background-color: #3366ff;
 }
-
 .resume-main {
 	background-color: #fffefc;
 }
-
 .resume-aside {
 	background-color: #A9A9A9;
 }
-
-/* Styles for lists in the document */
-
 .biography-details li::before, .skill-list li::before {
 	content: ">";
 	font-weight: 800;
@@ -34,28 +23,22 @@ body {
 	width: 1em;
 	margin-left: -1em;
 }
-
 .biography-details li::before {
 	color: #EE7623;
 }
-
 .biography-details li, .skill-list li {
 	padding-left: 1em;
 }
-
 .skill-item {
 	font-weight: bold;
 }
 h1 {
   color: white;
 }
-
 .wtext	{
 	color: white;
-}
-
-/* Styles for contact icons */
-
+	font-family: 'Source Sans Pro', sans-serif;
+}	
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
